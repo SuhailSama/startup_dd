@@ -3,8 +3,8 @@ import google.generativeai as genai
 from fastapi import FastAPI
 import os
 
-OPENAI_API_KEY="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"
-GEMINI_API_KEY="AIzaSyD8K4xnMh9Hq-26x0aRaTPM88FTlh-qtqk"
+OPENAI_API_KEY="private"
+GEMINI_API_KEY="private"
 
 
 client = OpenAI(api_key=OPENAI_API_KEY)
